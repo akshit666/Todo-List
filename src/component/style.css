@@ -1,0 +1,69 @@
+
+.Main{
+    background-color:rgb(198, 159, 243);
+    border: 2px solid black;
+    /* height: 80vh;     */
+    width: 600px;
+    padding-bottom: 70px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 11px;
+}
+
+form {
+    background-color: blue;
+    background-color: aliceblue;
+    height: 95px;
+    width: 489px;
+    border-radius: 9px;
+    box-shadow: -1px 22px 50px;
+}
+input{
+    border: none;
+    border-bottom:1px solid black ;
+    font-size: 15px;
+    width: 300px;
+    background-color: aliceblue;
+    
+}
+input::placeholder{
+    color: rgb(110, 110, 107);
+    text-align: center;
+}
+button{
+    background-color: #f98c8c;
+    width: 63px;
+    border-radius: 4px;
+}
+
+#root{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.secondContainer{
+    text-align: start;  
+}
+.tagname{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: rgb(111,111,111);  
+    background-color: aliceblue;
+    border: 0.1px solid black;
+    border-radius: 10px;
+    
+    
+}
+.btn{
+    display: flex;
+    justify-content:end;
+    align-items: center;    
+
+}
+.h3{
+    text-align: center;
+}
+
